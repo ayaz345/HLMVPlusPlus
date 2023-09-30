@@ -1,4 +1,4 @@
-# HLMVPlusPlus-IssueTracker
+# [HLMV++](https://developer.valvesoftware.com/wiki/HLMV%2B%2B)
 **HLMV++** *(Half-Life Model Viewer++)* is a new build of HLMV created by ficool2. The goal is the same as [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/), to fix long-standing bugs in HLMV and add new features and functionality to make the program better to use, whether you're doing model renders for artwork or for wiki articles.
 
 You can download the latest testing build of **HLMV++** here. You can also report issues or provide feature suggestions here in the Issue Reports.
