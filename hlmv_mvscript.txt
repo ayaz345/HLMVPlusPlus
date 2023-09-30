@@ -1,0 +1,46 @@
+=== HLMV Scripting Documentation (.mvscript) ===
+
+To use: File -> Run .mvscript
+The current session can be partially saved into a script, using File -> Save session as .mvscript
+
+The .mvscript is laid out in standard keyvalues format like other txt files in Source engine
+The commands are executed in order with a 10 millisecond delay between each one
+
+List of commands:
+
+"LoadModel" "<model name>"
+-> Does what you expect
+"LoadMergeModel" "<model name>"
+-> Loads a merged model onto the current model
+"SetAppWindowSize" "<width> <height>"
+-> Sets the size of the HLMV window
+"SetCameraOrigin" "<X> <Y> <Z>"
+-> Sets the position of the camera
+"SetCameraAngles" "<X> <Y> <Z>"
+-> Sets the rotation of the camera
+"SetLightAngles" "<X> <Y> <Z>"
+-> Sets the rotation of the global light
+"SetLightColor" "<X> <Y> <Z>"
+-> Sets the color of the global light
+"SetAmbientColor" "<X> <Y> <Z>"
+-> Sets the color of the ambient light
+"SetRenderMode" "<index>"
+-> Sets the special rendering mode (Wireframe, textured... etc)
+"SetBGColor" "<X> <Y> <Z>"
+-> Sets the color of the background
+"Screenshot" "<name>"
+-> Takes a screenshot with the given name. If the name is set to "modelname", the .tga will be saved with the model's filename
+"HideControlPanel" "<0/1>"
+-> Toggles the big HLMV control panel
+"NormalMapping" "<0/1>"
+-> Toggles whether normal mapping is enabled
+"Phong" "<0/1>"
+-> Toggles whether phong is enabled
+"RunExternalCmd" "<command>"
+-> Runs a system command, equivalent to running it in CMD
+"Close" "<0/1>"
+-> Quits HLMV
+"SetMatVars" { "<variable name>" "<value>" ... }
+->  Given a list of variable names, it goes through them and sets them on all the materials in the model
+"ReplaceMaterials" { "<material name>" "<replacement material name>" ... }
+->  Goes through the list and replaces the materials in the model with the corresponding one
