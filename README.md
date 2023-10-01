@@ -1,9 +1,8 @@
 # [HLMV++](https://developer.valvesoftware.com/wiki/HLMV%2B%2B)
 **HLMV++** *(Half-Life Model Viewer++)* is a new build of HLMV created by ficool2. The goal is the same as [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/), to fix long-standing bugs in HLMV and add new features and functionality to make the program better to use, whether you're doing model renders for artwork or for wiki articles.
 
-You can download the latest testing build of **HLMV++** here. You can also report issues or provide feature suggestions here in the Issue Reports.
-
-Alternatively, if you're on Discord, we have a Discord server now where you can submit bugs or feature suggestions!
+# Discord
+We have a Discord server now where you can submit bugs and feature suggestions!
 
 **[Click here to join the HLMV++ Discord!](https://discord.gg/GeqVxrJfRs)**
 
@@ -15,19 +14,19 @@ Alternatively, if you're on Discord, we have a Discord server now where you can 
   - Can also work with the various Team Fortress 2 Source mods like TF2Classic, Pre-Fortress 2, Open Fortress and Team Deathmatch Classic.
   - [Follow this guide on setting up HLMV for Pre-Fortress 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2784234957), but instead of creating a shortcut for hlmv.exe, create it for hlmvplusplus.exe. Then add the -game parameter to the Target field of the shortcut as normal and point it to whichever mod's directory. If you have issues with this, please join the HLMV++ Discord and we can assist you further. 
 - Left 4 Dead 2
+- Garry's Mod
 
-## Coming soon(?)
-- [Garry's Mod](https://media.discordapp.net/attachments/981438283814944778/1154101962887938208/image.png)
+## Coming soon
 - Portal 2
 - Source SDK MP2013 (which means the shortcut trick won't be necessary to get this working for TF2 mods and other Source game mods)
 
 # Installation
-Download the EXE and the DLL files from this repo and extract them into your `steamapps/common/Team Fortress 2/bin` or `steamapps/common/Left 4 Dead 2/bin` folder *(where `hlmv.exe` is stored)*. Then just launch `hlmvplusplus.exe` instead of `hlmv.exe` and you're done!
+Download the EXE and the DLL files from this repo and extract them into your `steamapps/common/<game>/bin` folder *(where `hlmv.exe` is stored)*. Then just launch `hlmvplusplus.exe` instead of `hlmv.exe` and you're done!
 
 # Fixes & New Features
 I desperately need to update this section with all the new features from the recent Version 5 release.
 
-- **New Feature (22w45b):** You can now load particle effects in!
+- **New Feature:** You can now load particle effects in!
 - **New Feature:** [View > Show/Hide Control Panel](https://drive.google.com/file/d/1zGoXqRgWLNYCyMDyXg15ZOw6gnSVF2An/view?usp=drivesdk).
   - Allows you to show/hide the lower-third controls panel, for larger renders.
 - **New Feature/Fix:** Options > Make Screenshot.
@@ -55,6 +54,7 @@ Here is an example "flex" key layout for `models/player/heavy.mdl`:
 
 # Other Notes
 - The **Make Screenshot** function may not work correctly when HLMV++ is stretched across multiple monitors. Doing so may result in a very wide screenshot with two copies of the same model in it. This is, to my knowledge, not fixable.
+- Making transparent screenshots/videos of anything that uses `$additive` materials, such as certain particle effects in TF2, does not work correctly as the generated alpha channel algorithm doesn't play nice with additive materials. Any details that use additive materials will not be part of the generated alpha channel.
 
 # Credits
 - **TF2CutContent** - Commissioned the creation of this project.
