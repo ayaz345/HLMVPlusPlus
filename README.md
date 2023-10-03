@@ -1,10 +1,10 @@
 # [HLMV++](https://developer.valvesoftware.com/wiki/HLMV%2B%2B)
 **HLMV++** *(Half-Life Model Viewer++)* is a new build of HLMV created by ficool2. The goal is the same as [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/), to fix long-standing bugs in HLMV and add new features and functionality to make the program better to use, whether you're doing model renders for artwork or for wiki articles.
 
-# Discord
-We have a Discord server now where you can submit bugs and feature suggestions!
-
-**[Click here to join the HLMV++ Discord!](https://discord.gg/GeqVxrJfRs)**
+# Linkage
+- **[Click here](https://discord.gg/GeqVxrJfRs)** to join the HLMV++ Discord server where you can report bugs and suggest new features.
+- Follow us on Twitter at **[@HLMVPlusPlus](https://twitter.com/HLMVPlusPlus)** for new release announcements and sneak peeks of new features.
+- We also have an article on the Valve Developer Wiki: **[HLMV++](https://developer.valvesoftware.com/wiki/HLMV%2B%2B)**.
 
 # Source Code?
 **HLMV++, like ficool2's other project, [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/), is closed source. Due to ficool2 being a licensed Source Engine developer, the source code for HLMV++ cannot legally be released.**
