@@ -57,7 +57,7 @@ Here is an example "flex" key layout for `models/player/heavy.mdl`:
 - Making transparent screenshots/videos of anything that uses `$additive` materials, such as certain particle effects in TF2, does not work correctly as the generated alpha channel algorithm doesn't play nice with additive materials. Any details that use additive materials will not be part of the generated alpha channel.
 
 # Credits
-- **TF2CutContent** - Commissioned the creation of this project.
+- **ImguRandom** - Commissioned the creation of this project.
 - **[ficool2](https://github.com/ficool2)** - Programming. The entire reason this even exists.
 - **[Gabrielwoj](https://github.com/gabrielwoj)** - Bug testing, providing feedback and insight on changes/new features. Also made the Discord server image.
 - **[Andrew360](https://wiki.teamfortress.com/wiki/User:Andrew360)** - Bug testing, providing feedback and insight on changes/new features.
