@@ -40,8 +40,7 @@ I desperately need to update this section with all the new features from the rec
 - **New Feature:** [Live VMT material editing](https://twitter.com/TF2CutContent/status/1492267684372828167?t=FQ9Brn1XsnCRMPTCRNdGbg).
   - This should make learning what VMT variables do what, and learning how to work with VMT files in general, a hell of a lot easier. 
 - **Fixed:** VMT Material Proxies not being respected.
-  - HLMV kind of ignored the entire Proxies section of VMT files for models. HLMV++ respects those proxies and thus, will display what the model would look like ingame.
-  - **Upcoming Tweak:** An option to toggle whether or not to respect the Proxies section is planned.
+  - HLMV kind of ignored the entire Proxies section of VMT files for models. HLMV++ respects those proxies and thus, will display what the model would look like ingame. As of Version 5 there is now an option to toggle whether or not to respect material proxies.
 - **New Feature/Fix:** [Facial flex panel overhaul](https://media.discordapp.net/attachments/993823597401489468/993824557574127697/unknown-60.png).
   - Kiss those dropdown boxes goodbye. The flex list is now auto-populating and paginated so there's no need for dropdown boxes to change a targeted flex.
   - This fixes the age-old bug where facial flexes you had changed would be reset to their default values when you changed which flex a dropdown box was targeting.
