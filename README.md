@@ -23,6 +23,8 @@
 # Installation
 Download the EXE and the DLL files from this repo and extract them into your `steamapps/common/<game>/bin` folder *(where `hlmv.exe` is stored)*. Then just launch `hlmvplusplus.exe` instead of `hlmv.exe` and you're done!
 
+For Garry's Mod, if you are using 64-bit Garry's Mod, you will also have to download the x86 DLLs package and extract those to the same folder as `hlmvplusplus.exe`.
+
 # Fixes & New Features
 I desperately need to update this section with all the new features from the recent Version 5 release.
 
