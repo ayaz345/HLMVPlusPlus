@@ -68,6 +68,6 @@ Here is an example "flex" key layout for `models/player/heavy.mdl`:
 - **[Gabrielwoj](https://github.com/gabrielwoj)** - Bug testing, providing feedback and insight on changes/new features. Also made the Discord server image.
 - **[Andrew360](https://wiki.teamfortress.com/wiki/User:Andrew360)** - Bug testing, providing feedback and insight on changes/new features.
 - **[ArielChandia2](https://twitter.com/ArielChandia2)** - Bug testing.
-- **[A Paint Bucket Named Huey](https://twitter.com/HueyCan)** - Bug testing.
+- **[A Paint Bucket Named Huey](https://github.com/HueyCan)** - Bug testing.
 - **Everyone who has reported a bug or submitted a feature request on the HLMV++ Discord** - 
 Too many of you to list, but your contributions are all greatly appreciated ❤️
