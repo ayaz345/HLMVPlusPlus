@@ -25,6 +25,9 @@ Download the EXE and the DLL files from this repo and extract them into your `st
 
 For Garry's Mod, if you are playing on the 32 bit build, just extract `hlmvplusplus.dll` and `hlmvplusplus.exe` and leave the rest of the DLLs. If playing on the 64 bit build, extract the entire package.
 
+# Old Builds
+Old historical builds are also hosted here for posterity. Do note that older builds may contain some bugs and other issues that have been fixed in more recent versions, and will obviously lack any new features present in the most recent builds. If you are using an older build and encounter a bug, it is recommended to upgrade to the most recent build. If reporting a bug on the HLMV++ Discord, support will not be granted for bugs in old builds.
+
 # Fixes & New Features
 I desperately need to update this section with all the new features from the recent Version 5 release.
 
