@@ -5,6 +5,8 @@
 - **[Click here](https://discord.gg/GeqVxrJfRs)** to join the HLMV++ Discord server where you can report bugs and suggest new features.
 - Follow us on Twitter at **[@HLMVPlusPlus](https://twitter.com/HLMVPlusPlus)** for new release announcements and sneak peeks of new features.
 - We also have an article on the Valve Developer Wiki: **[HLMV++](https://developer.valvesoftware.com/wiki/HLMV%2B%2B)**.
+- There is also now a proper [Wiki](https://github.com/ImguRandom/HLMVPlusPlus/wiki) for this repo.
+  - Wiki is currently under construction.
 
 # Source Code?
 **HLMV++, like ficool2's other project, [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/), is closed source. Due to ficool2 being a licensed Source Engine developer, the source code for HLMV++ cannot legally be released.**
